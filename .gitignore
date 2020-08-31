@@ -35,7 +35,7 @@ server/logs/*.log.*
 # For my testing server on the same machine settings has to be different.. 
 # unless I move the stuff to secret... hmmmm
 server/conf/settings.py
-
+ 
 # Installer logs
 pip-log.txt
 
