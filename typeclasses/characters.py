@@ -49,6 +49,7 @@ class Character(DefaultCharacter):
         Simple access method to return ability
         scores as a tuple (str,agi,mag)
         """
-        return self.db.strength, self.db.agility, self.db.magic
+        return ( self.db.strength, self.db.intelligence, self.db.wisdom, 
+            self.db.dexterity, self.db.constitution, self.db.charisma)
 
     pass
